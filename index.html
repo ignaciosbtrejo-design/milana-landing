@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiLana - Finanzas personales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    /* Barra de navegación */
+    nav {
+      background-color: #1f6f5f;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    nav .logo {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Sección principal */
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background-color: #e6f2ef;
+    }
+
+    .hero h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 25px auto;
+    }
+
+    .boton {
+      background-color: #1f6f5f;
+      color: white;
+      border: none;
+      padding: 12px 28px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    .boton:hover {
+      background-color: #16524a;
+    }
+
+    /* Tarjetas */
+    .tarjetas {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+    }
+
+    .tarjeta {
+      background-color: white;
+      border-radius: 8px;
+      padding: 25px;
+      width: 280px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .tarjeta h3 {
+      margin-top: 0;
+      color: #1f6f5f;
+    }
+
+    /* Pie de página */
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">MiLana</div>
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#funciones">Funciones</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="inicio">
+    <h1>Controla tu dinero sin complicarte</h1>
+    <p>MiLana es una app para llevar el registro de tus gastos, ahorrar con metas claras y saber en qué se te va la lana cada mes.</p>
+    <button class="boton" onclick="alert('¡Gracias por tu interés! Pronto estará disponible.')">Empezar gratis</button>
+  </section>
+
+  <section class="tarjetas" id="funciones">
+    <div class="tarjeta">
+      <h3>Registra tus gastos</h3>
+      <p>Anota lo que gastas en segundos y clasifícalo por categorías: comida, transporte, salidas, etc.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Metas de ahorro</h3>
+      <p>Define cuánto quieres ahorrar y para qué. La app te dice cuánto apartar cada semana para lograrlo.</p>
+    </div>
+    <div class="tarjeta">
+      <h3>Resumen mensual</h3>
+      <p>Al final del mes ves una gráfica simple de tus ingresos y gastos para entender tus hábitos.</p>
+    </div>
+  </section>
+
+  <footer id="contacto">
+    <p>MiLana © 2026 · Proyecto universitario · contacto@milana.app</p>
+  </footer>
+
+</body>
+</html>
